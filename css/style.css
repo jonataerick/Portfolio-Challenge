@@ -1,0 +1,181 @@
+:root{
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+   --azul-fraco: #EAF2FD;
+   --branco: #FFFFFF;
+   --cor-botao: #2A7AE4;
+   --cor-fonte: #464646;
+}
+
+body {
+   box-sizing: border-box;
+   background-color: var(--cor-de-fundo) ;
+   font-family: 'Raleway';
+   margin: 0;
+   padding: 0;
+   line-height: 1;
+   color: var(--cor-fonte);
+}
+ol, ul,li {
+   list-style: none;
+}
+a{
+   text-decoration: none;
+   color: var(--cor-de-link);
+}
+
+.container {
+   padding: 2.25rem 9.5rem;
+}
+
+/*Sessão Menu*/
+
+section.menu{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 0 4.2rem;
+}
+
+.cabecalho {
+   display: flex;
+   
+}
+
+.cabecalho_nome {
+   padding: 0 0.7rem;
+   align-self: center;
+   font-weight: bold;
+}
+
+.menu_lista {
+   display: flex;
+}
+
+.menu_lista_item {
+   padding: 0 1rem;
+}
+
+.menu_lista_contato {
+   font-weight: bold;
+}
+
+
+
+/*Sessão Titulo*/
+
+section.titulo{
+
+}
+
+.titulo_div {
+   display: flex;
+   justify-content: space-between;
+   flex-direction: row-reverse;
+   align-items: center;
+}
+
+.titulo_imagem {
+   margin-left: 1rem;
+}
+
+.titulo_container {
+   align-items: center;
+}
+
+.titulo_bio {
+   font-size: 4rem;
+   font-weight: bold;
+   margin-bottom: 2rem;
+}
+
+.titulo_descricao {
+   font-size: 1.4rem;
+   margin-bottom: 1.7rem;
+}
+
+.titulo_redes {
+   display: flex;
+   justify-content: space-around;
+}
+
+
+/*Sessão About*/
+
+section.about{
+
+}
+
+/*Sessão Hobbies*/
+
+section.hobbies{
+    
+}
+
+/* Experiência Acadêmica*/
+
+section.academic{
+
+}
+
+/* experiência*/
+
+section.experience{
+
+}
+
+/*Contato*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menu */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Experiências acadêmicas*/
+
+/*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sessão sobre*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formação Acadêmica*/
+
+/*Experiência Profissional*/
+
+ /*Contato*/
+
+/*Footer*/
+
+}
+
