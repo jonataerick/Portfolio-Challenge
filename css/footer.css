@@ -1,0 +1,10 @@
+section.footer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    background-color: var(--branco);
+ }
+ 
+ .footer_rodape {
+    text-align: center;
+ }

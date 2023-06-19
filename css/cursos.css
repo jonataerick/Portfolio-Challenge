@@ -1,0 +1,40 @@
+section.cursos {
+    background: var(--cor-de-fundo2);
+    width: 100%;
+    height: 36rem;
+    margin-bottom: 2rem;
+ }
+ 
+ .cursos_titulo {
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2rem;
+ }
+ 
+ .cursos_academicos {
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .cursos_academicos_box {
+    background: var(--branco);
+    width: 23rem;
+    height: 17rem;
+    margin: 0 0.5rem;
+ }
+ 
+ .cursos_academicos_lista {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ .cursos_academicos_item_imagem {
+    padding: 5.5rem 5.5rem;
+ }
+ 
+ .cursos_academicos_item_titulo {
+    font-weight: bold;
+    padding-bottom: 0.5rem;
+ }

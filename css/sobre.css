@@ -1,0 +1,26 @@
+section.sobre{
+    background: var(--cor-de-fundo2);
+    display: flex;
+    margin-bottom: 2rem;
+    width: 100%;
+ }
+ 
+ .sobre_container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 47rem;
+    width: 100%;
+    margin: 4rem 9.5rem 4rem;
+ }
+ 
+ .sobre_titulo {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+ }
+ 
+ .sobre_paragrafo {
+    line-height: 1.5rem;
+    text-align: justify;
+ }

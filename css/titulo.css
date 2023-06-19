@@ -1,0 +1,45 @@
+section.titulo{
+    margin-bottom: 2rem;
+    padding: 2rem 9.5rem 0;
+ }
+ 
+ .titulo_div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+ }
+ 
+ .titulo_imagem {
+    margin-left: 1rem;
+ }
+ 
+ .titulo_container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+ }
+ 
+ .titulo_bio {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-align: justify;
+ }
+ 
+ .titulo_descricao {
+    font-size: 1.4rem;
+    margin-bottom: 1.7rem;
+    text-align: justify;
+ }
+ 
+ .titulo_redes {
+    display: flex;
+    justify-content: flex-start;
+ }
+ 
+ .titulo_redes_item {
+    padding-right:2.5rem;
+ }

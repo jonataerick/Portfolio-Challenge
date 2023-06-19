@@ -1,0 +1,55 @@
+section.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 0 4.2rem;
+    padding: 2rem 9.5rem 0;
+ }
+ 
+ .cabecalho {
+    display: flex;
+    
+ }
+ 
+ .cabecalho_nome {
+    padding: 0 0.7rem;
+    align-self: center;
+    font-weight: bold;
+ }
+ 
+ .menu_lista {
+    display: flex;
+ }
+ 
+ .menu_lista_item {
+    padding: 0 1.5rem;
+ }
+ 
+ .menu_lista_contato {
+    font-weight: bold;
+ }
+
+ /*Tablet*/
+@media (max-width: 768px) {
+    .menu_lista_item {
+        display: none;
+     }
+     .menu_lista_contato {
+        font-weight: bold;
+        display: flex;
+        margin-left: 25.5rem;
+     }
+
+    /* Menu */
+    
+    /*title*/
+    
+    /*Skills*/
+    
+    /*Hobbies*/
+    
+    /*Experiências acadêmicas*/
+    
+    /*Expeirência profissional*/
+    
+    }
