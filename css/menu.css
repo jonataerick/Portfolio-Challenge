@@ -2,13 +2,18 @@ section.menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 0 4.2rem;
-    padding: 2rem 9.5rem 0;
+    margin: 2rem 9.5rem 4.2rem;
  }
  
  .cabecalho {
     display: flex;
-    
+ }
+
+ .cabecalho img {
+   max-width: 24px;
+   width: auto;
+   max-height: 24px;
+   height: auto;
  }
  
  .cabecalho_nome {
@@ -29,27 +34,39 @@ section.menu{
     font-weight: bold;
  }
 
- /*Tablet*/
+
 @media (max-width: 768px) {
-    .menu_lista_item {
+
+   section.menu{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 0 0;
+      margin: 0;
+   }
+      
+   .cabecalho {
+      display: flex;
+      padding-left: 2rem;
+   }
+
+   .menu_lista_item {
         display: none;
      }
-     .menu_lista_contato {
+   .menu_lista_contato {
         font-weight: bold;
         display: flex;
-        margin-left: 25.5rem;
+        color: var(--cor-fonte);
      }
+    
+}
 
-    /* Menu */
-    
-    /*title*/
-    
-    /*Skills*/
-    
-    /*Hobbies*/
-    
-    /*Experiências acadêmicas*/
-    
-    /*Expeirência profissional*/
-    
-    }
+@media (max-width: 425px) {
+   .menu_lista_contato {
+      font-weight: bold;
+      display: flex;
+      color: var(--cor-fonte);
+      font-size: 0.9rem;
+   }
+
+}

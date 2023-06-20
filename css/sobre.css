@@ -2,15 +2,16 @@ section.sobre{
     background: var(--cor-de-fundo2);
     display: flex;
     margin-bottom: 2rem;
-    width: 100%;
+    max-width: 100vw;
+    width: auto;
  }
  
  .sobre_container {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 47rem;
-    width: 100%;
+    max-width: 40vw;
+    width: auto;
     margin: 4rem 9.5rem 4rem;
  }
  
@@ -24,3 +25,27 @@ section.sobre{
     line-height: 1.5rem;
     text-align: justify;
  }
+
+ @media (max-width: 768px) {
+   .sobre_container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      max-width: 100vw;
+      width: auto;
+      margin: 2rem 2rem 2rem;
+   }
+
+   .sobre_titulo {
+      font-size: 1.3rem;
+      font-weight: bold;
+      padding-bottom: 1rem;
+   }
+
+   .sobre_paragrafo {
+      line-height: 1.5rem;
+      text-align: justify;
+      font-size: 0.9rem;
+   }
+
+}
