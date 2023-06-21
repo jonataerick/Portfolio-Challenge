@@ -26,6 +26,10 @@ a{
    color: var(--cor-de-link);
 }
 
+.container {
+   
+}
+
 /*Tablet*/
 @media (max-width: 768px) {
 

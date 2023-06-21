@@ -2,7 +2,7 @@ section.menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 2rem 9.5rem 4.2rem;
+    margin: 2% 8% 4%;
  }
  
  .cabecalho {
@@ -16,21 +16,21 @@ section.menu{
    height: auto;
  }
  
- .cabecalho_nome {
+ .cabecalho__nome {
     padding: 0 0.7rem;
     align-self: center;
     font-weight: bold;
  }
  
- .menu_lista {
+ .menu__lista {
     display: flex;
  }
  
- .menu_lista_item {
+ .menu__lista--item {
     padding: 0 1.5rem;
  }
  
- .menu_lista_contato {
+ .menu__lista--contato {
     font-weight: bold;
  }
 
@@ -38,23 +38,18 @@ section.menu{
 @media (max-width: 768px) {
 
    section.menu{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
       padding: 1rem 0 0;
       margin: 0;
    }
       
    .cabecalho {
-      display: flex;
       padding-left: 2rem;
    }
 
-   .menu_lista_item {
+   .menu__lista--item {
         display: none;
      }
-   .menu_lista_contato {
-        font-weight: bold;
+   .menu__lista--contato {
         display: flex;
         color: var(--cor-fonte);
      }
@@ -62,10 +57,7 @@ section.menu{
 }
 
 @media (max-width: 425px) {
-   .menu_lista_contato {
-      font-weight: bold;
-      display: flex;
-      color: var(--cor-fonte);
+   .menu__lista--contato {
       font-size: 0.9rem;
    }
 

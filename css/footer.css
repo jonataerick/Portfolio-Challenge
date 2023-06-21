@@ -5,6 +5,6 @@ section.footer{
     background-color: var(--branco);
  }
  
- .footer_rodape {
+ .footer__rodape {
     text-align: center;
  }

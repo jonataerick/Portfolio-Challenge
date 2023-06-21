@@ -1,22 +1,21 @@
 section.titulo{
-    margin-bottom: 2rem;
-    margin-left: 9.5rem;
-    margin-right: 9.5rem;
-    margin-top: 2rem;
+    margin-bottom: 2%;
+    margin-left: 8%;
+    margin-right: 9%;
  }
  
- .titulo_div {
+ .titulo__div {
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
     align-items: center;
  }
  
- .titulo_imagem {
-    margin-left: 1rem;
+ .titulo__imagem {
+    margin-left: 1%;
  }
  
- .titulo_container {
+ .titulo__container {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -24,87 +23,77 @@ section.titulo{
     flex-wrap: wrap;
  }
  
- .titulo_bio {
+ .titulo__bio {
     font-size: 4vw;
     font-weight: bold;
     margin-bottom: 2rem;
     text-align: justify;
  }
  
- .titulo_descricao {
+ .titulo__descricao {
     font-size: 1.4rem;
     margin-bottom: 1.7rem;
     text-align: justify;
  }
  
- .titulo_redes {
+ .titulo__redes {
     display: flex;
     justify-content: flex-start;
  }
  
- .titulo_redes_item {
+ .titulo__redes--item {
     padding-right:2.5rem;
  }
 
  @media (max-width: 768px) {
    section.titulo{
-      margin-bottom: 2rem;
-      margin-left: 2rem;
-      width: 93vw;
+      margin-left: 4%;
+      width: 93%;
    }
 
-   .titulo_div {
-      display: flex;
-      justify-content: space-between;
-      flex-direction: row-reverse;
-      align-items: center;
-   }
-
-   .titulo_imagem {
-      margin-left: 1rem;
+   .titulo__imagem {
       max-width: 146px;
       width: auto;
       max-height: 146px;
       height: auto;
    }
 
-   .titulo_bio {
+   .titulo__container {
+      padding-top: 3rem;
+   }
+   .titulo__bio {
       font-size: 1.3rem;
-      font-weight: bold;
       margin-bottom: 1rem;
-      text-align: justify;
       margin-right: 2rem;
    }
 
-   .titulo_descricao {
+   .titulo__descricao {
       font-size: 1rem;
-      text-align: justify;
       margin-bottom: 1rem;
    }
    
 }
 
 @media (max-width: 425px) {
-   .titulo_div {
-    display: flex;
-    justify-content: space-between;
+   .titulo__div {
     flex-direction: column;
     align-items: flex-start;
  }
 
-   .titulo_imagem {
+   .titulo__imagem {
       max-width: 98px;
       width: auto;
       max-height: 98px;
       height: auto;
-      margin-bottom: 1rem;
       margin-left: 0;
+      margin-top: 1rem;
    }
 
-   .titulo_descricao {
-      font-size: 1rem;
-      text-align: justify;
-      margin-bottom: 1rem;
+   .titulo__container {
+      padding-top: 1rem;
+   }
+
+   .titulo__descricao {
       margin-right: 2rem;
   }
 
