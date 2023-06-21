@@ -63,7 +63,7 @@ section.xp{
  }
  
  .xp__botao--repo:hover {
-   box-shadow: 2px 4px 1px var(--cor-sombra);
+   background: var(--cor-hover2);
  }
  
  .xp__demo {
@@ -83,7 +83,7 @@ section.xp{
  }
  
  .xp__botao--demo:hover {
-   box-shadow: 2px 4px 1px var(--cor-sombra);
+   background: var(--cor-hover);
  }
 
  @media (max-width: 768px) {

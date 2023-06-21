@@ -1,8 +1,9 @@
 section.menu{
+    align-items: center;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 2% 8% 4%;
+    margin: 0 8%;
+    padding: 2rem 0;
  }
  
  .cabecalho {
@@ -10,16 +11,16 @@ section.menu{
  }
 
  .cabecalho img {
-   max-width: 24px;
-   width: auto;
-   max-height: 24px;
-   height: auto;
+    height: auto;
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+    width: auto;
  }
  
  .cabecalho__nome {
-    padding: 0 0.7rem;
     align-self: center;
     font-weight: bold;
+    padding: 0 0.7rem;
  }
  
  .menu__lista {
@@ -27,7 +28,7 @@ section.menu{
  }
  
  .menu__lista--item {
-    padding: 0 1.5rem;
+    padding: 0 2rem;
  }
  
  .menu__lista--contato {
@@ -38,8 +39,8 @@ section.menu{
 @media (max-width: 768px) {
 
    section.menu{
-      padding: 1rem 0 0;
       margin: 0;
+      padding: 1rem 0 0;
    }
       
    .cabecalho {
@@ -51,14 +52,19 @@ section.menu{
      }
    .menu__lista--contato {
         display: flex;
-        color: var(--cor-fonte);
+        font-weight: 400;
      }
     
 }
 
 @media (max-width: 425px) {
+   .cabecalho {
+      padding-left: 1rem;
+   }
+   
    .menu__lista--contato {
       font-size: 0.9rem;
+      padding-right: 1rem;
    }
 
 }

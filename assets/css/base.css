@@ -6,7 +6,8 @@
    --cor-botao: #2A7AE4;
    --cor-fonte: #464646;
    --cor-sombra: #00000040;
-   --cor-hover: #A9A9A9
+   --cor-hover: #0000FF;
+   --cor-hover2: #D3D3D3;
 }
 
 body {
@@ -25,18 +26,3 @@ a{
    text-decoration: none;
    color: var(--cor-de-link);
 }
-
-.container {
-   
-}
-
-/*Tablet*/
-@media (max-width: 768px) {
-
-}
-
-/*Mobile*/
-@media (max-width: 425px) {
-
-}
-

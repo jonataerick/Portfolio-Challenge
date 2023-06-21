@@ -81,7 +81,7 @@ section.formcontato{
  }
  
  .formcontato__botao:hover {
-    box-shadow: 2px 4px 1px var(--cor-sombra);
+   background: var(--cor-hover);
  }
 
  @media (max-width: 768px) {
