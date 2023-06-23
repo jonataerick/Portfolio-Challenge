@@ -1,26 +1,26 @@
 section.xp{
+    margin-bottom: 2rem;
     text-align: center;
-    margin-bottom: 2%;
  }
  
  .xp__section--titulo {
-    font-weight: bold;
     font-size: 2rem;
+    font-weight: bold;
     padding-bottom: 2%;
  }
  
  .xp__box {
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 0 8%;
  }
  
  .xp__imagem {
-    max-width: 47rem;
-    width: 100%;
     box-shadow: 0px 4px 4px var(--cor-sombra);
     margin-right: 1%;
+    max-width: 47rem;
+    width: 100%;
  }
  
  .xp__info {
@@ -28,9 +28,9 @@ section.xp{
  }
  
  .xp__titulo {
-    padding-bottom: 3%;
-    font-weight: bold;
     font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 3%;
  }
  
  .xp__texto {
@@ -43,23 +43,23 @@ section.xp{
  }
  
  .xp__repo {
-    margin-right: 1rem;
     cursor: pointer;
+    margin-right: 1rem;
     max-width: 96px;
     width: 100%;
  }
  
  .xp__botao--repo {
     background-color: none;
-    padding: 1rem 1rem;
     border: solid 1px var(--cor-botao);
+    border-radius: 4px;
     color: var(--cor-botao);
     cursor: pointer;
-    max-width: 96px;
-    width: auto;
-    max-height: 48px;
     height: auto;
-    border-radius: 4px;
+    max-height: 48px;
+    max-width: 96px;
+    padding: 1rem 1rem;
+    width: auto;
  }
  
  .xp__botao--repo:hover {
@@ -67,19 +67,19 @@ section.xp{
  }
  
  .xp__demo {
+    height: auto;
+    max-height: 48px;
     max-width: 96px;
     width: auto;
-    max-height: 48px;
-    height: auto;
  }
  
  .xp__botao--demo {
-    padding: 1rem 1rem;
     background-color: var(--cor-botao);
     border: solid 1px var(--cor-botao);
+    border-radius: 4px;
     color: var(--branco);
     cursor: pointer;
-    border-radius: 4px;
+    padding: 1rem 1rem;
  }
  
  .xp__botao--demo:hover {
@@ -87,35 +87,36 @@ section.xp{
  }
 
  @media (max-width: 768px) {
-   .xp__section_titulo {
+
+   .xp__section--titulo {
       font-size: 1.3rem;
       padding-bottom: 1rem;
    }
 
    .xp__box {
-      flex-direction: column;
       align-items: flex-start;
+      flex-direction: column;
       margin:0 2rem;
    }
 
    .xp__imagem {
-      max-width: 44rem;
       margin-bottom: 1rem;
+      max-width: 44rem;
    }
 
    .xp__titulo {
-      padding-bottom: 0.5rem;
       font-size: 1rem;
+      padding-bottom: 0.5rem;
    }
    
    .xp__texto {
-      padding-bottom: 0.5rem;
       font-size: 0.9rem;
+      padding-bottom: 0.5rem;
    }
 
    .xp__repo {
-      max-height: 40px;
       font-size: 0.9rem;
+      max-height: 40px;
    }
 
    .xp__botao--repo {
@@ -123,10 +124,10 @@ section.xp{
    }
 
    .xp__demo {
+      font-size: 0.9rem;
+      max-height: 40px;
       max-width: 96px;
       width: 100%;
-      max-height: 40px;
-      font-size: 0.9rem;
    }
 
    .xp__botao--demo {
