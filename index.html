@@ -42,13 +42,13 @@
             <div class="titulo__div">
                 <img class="titulo__imagem" src="./assets/img/perfil.png">
                 <div class="titulo__container" id="#sobremim">
-                    <h2 class="titulo__bio"> Olá, muito prazer. Meu nome é Jonata Pereira e construo páginas web</h2>
+                    <h2 class="titulo__bio"> Olá, muito prazer. Meu nome é Jonata Pereira e estou aprendendo a construir páginas web!</h2>
                     <h3 class="titulo__descricao">Eu sou estudante de Engenharia da Computação e estou participando do projeto Oracle ONE em parceria com a Alura.</h3>
                     <ul class="titulo__redes">
                         <li class="titulo__redes--item"><a href="https://github.com/jonataerick" target="_blank" rel="external">Github <img src="./assets/img/arrow.png"> </a></li>
                         <li class="titulo__redes--item"><a href="https://www.linkedin.com/in/jonata-pereira/" target="_blank" rel="external">Linkedin <img src="./assets/img/arrow.png"></a></li>
                         <li class="titulo__redes--item"><a href="https://www.instagram.com/jonataerick/" target="_blank" rel="external">Instagram <img src="./assets/img/arrow.png"></a></li>
-                        <li class="titulo__redes--item"><a href="imagens/Currículo - Jonata Pereira.pdf" target="_blank" rel="me">Curriculo <img src="./assets/img/arrow.png"></a></li>
+                        <li class="titulo__redes--item"><a href="assets/img/Currículo - Jonata Pereira.pdf" target="_blank" rel="me">Curriculo <img src="./assets/img/arrow.png"></a></li>
                     </ul>
                 </div>
             </div>
@@ -186,12 +186,12 @@
                         <h2 class="formcontato__title">Contato</h2>
                         <h3 class="formcontato__subtext">Quer entrar em contato comigo?</h3>
                         <h3 class="formcontato__subtext">Preencha o formulário abaixo e entrarei em contato o mais rápido possível. </h3>
-                        <form class="formcontato__form">
-                            <input class="formcontato__input" type="text" id="nome" placeholder="Nome" required>
-                            <input class="formcontato__input" type="email" id="email" placeholder="Email" required>
-                            <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto" required>
-                            <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Mensagem" required></textarea>
-                            <button class="formcontato__botao">Enviar mensagem</button>
+                        <form class="formcontato__form" action="https://formsubmit.co/jonataerick@live.com" method="POST">
+                            <input class="formcontato__input" type="text" id="nome" placeholder="Nome" required name="Nome">
+                            <input class="formcontato__input" type="email" id="email" placeholder="Email" required name="Email">
+                            <input class="formcontato__input" type="text" id="assunto" placeholder="Assunto" required name="Assunto">
+                            <textarea class="formcontato__textarea" type="text" rows="5" cols="40" id="mensagem" name="mensagem" placeholder="Mensagem" required name="Mensagem"></textarea>
+                            <button class="formcontato__botao" >Enviar mensagem</button>
                         </form>
                     </div>
                 </div>
